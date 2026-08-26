@@ -1,0 +1,23 @@
+# Gradle 缓存和构建输出
+.gradle/
+build/
+out/
+bin/
+
+# Loom 缓存（重点排除）
+.gradle/loom-cache/
+
+# IDE 配置（.idea 和 .vscode 等）
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# 系统文件
+Thumbs.db
+*.log
+
+# 本地 Gradle 属性（可选的）
+gradle.properties.local
